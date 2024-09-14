@@ -9,3 +9,13 @@
         <td>5</td>
     </tr>
 </table>
+
+<script>
+    const table = document.querySelector('table');
+    const rows = table.querySelectorAll('tr');
+    const firstRow = rows[0];
+    const firstRowCells = firstRow.querySelectorAll('td');
+    const firstRowCellText = firstRowCells[0].textContent;
+    console.log(firstRowCellText);
+</script>
+
